@@ -96,7 +96,7 @@ footer ul {
   flex-direction: column;
   position: absolute;
   width: 50%;
-  min-height: 80%;
+  min-height: 65%;
   top: 7.5%;
   left: 25%;
   background-color: #1e4d94d3;
@@ -117,4 +117,8 @@ footer ul {
 
 #restaurant-name {
   margin: .4em 0;
+}
+
+.catch-phrase {
+  text-align: center;
 }
