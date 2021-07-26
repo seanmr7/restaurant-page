@@ -122,3 +122,35 @@ footer ul {
 .catch-phrase {
   text-align: center;
 }
+
+.apps-header {
+  grid-column-start: 1;
+  grid-column-end: 5;
+ 
+}
+
+.dish-name {
+  font-size: large;
+  grid-column: 1 / span 3;
+  justify-self: start;
+  
+}
+
+.price {
+  justify-self: end;
+}
+
+.description {
+  font-size: smaller;
+  grid-column: 1 / span 4;
+}
+
+#menu_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-top: .5em;
+  width: 93.333%;
+  row-gap: .4em;
+}
+
