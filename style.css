@@ -123,27 +123,7 @@ footer ul {
   text-align: center;
 }
 
-.apps-header {
-  grid-column-start: 1;
-  grid-column-end: 5;
- 
-}
 
-.dish-name {
-  font-size: large;
-  grid-column: 1 / span 3;
-  justify-self: start;
-  
-}
-
-.price {
-  justify-self: end;
-}
-
-.description {
-  font-size: smaller;
-  grid-column: 1 / span 4;
-}
 
 #menu_container {
   display: grid;
@@ -152,5 +132,32 @@ footer ul {
   margin-top: .5em;
   width: 93.333%;
   row-gap: .4em;
+  column-gap: .75em;
 }
 
+.menu-header {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin: .2em 0 .5em 0;
+}
+
+.dish-name {
+  font-size: large;
+  margin-bottom: .4em;
+}
+
+.description {
+  font-size: smaller;
+  margin-bottom: 2em;
+}
+
+.left-col {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.right-col {
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+}
