@@ -1,7 +1,6 @@
 {
   "name": "restaurant-page",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,16 @@
   "devDependencies": {
     "webpack": "^5.45.1",
     "webpack-cli": "^4.7.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanmr7/restaurant-page.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/seanmr7/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/seanmr7/restaurant-page#readme",
+  "description": ""
 }
