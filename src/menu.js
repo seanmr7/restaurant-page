@@ -1,14 +1,12 @@
-const { container } = require("webpack")
-
 function menu() {
   let content = document.getElementById('content');
   let menuContainer = document.createElement('div');
-  menuContainer.classList.add("menu-container");
+  menuContainer.classList.add("menu_container");
 
   let menuHeaderDivs = [];
   let menuHeaderText = ["Appetizers", "Entrées", "Drinks"]
   menuHeaderText.forEach(header => {
-    let headerDiv = document.createElement('div');
+    let headerDiv = document.createElement('h1');
     headerDiv.classList.add('menu-header');
     headerDiv.innerText = header;
 
@@ -26,11 +24,12 @@ function menu() {
   dishContainers(entreeContainer, entreeText);
   dishContainers(drinksContainer, drinksText);
 
-  dishContainer = [appetizerContainer, entreeContainer, drinksContainer];
-  dishContainer.forEach((arr, index) => {
-    menuContainer.appendChild(menuHeaderDivs[index]);
-    arr.forEach(dish => {menuContainer.appendChild(dish)})   
-  })
+  let containers = [appetizerContainer, entreeContainer, drinksContainer];
+  
+  containers.forEach((arr, index) => {
+      menuContainer.appendChild(menuHeaderDivs[index]);
+      arr.forEach(dish => { menuContainer.appendChild(dish); });
+    })
 
   content.appendChild(menuContainer);
 }
