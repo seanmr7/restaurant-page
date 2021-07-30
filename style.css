@@ -157,5 +157,31 @@ footer ul {
 .right-col {
   grid-column-start: 3;
   grid-column-end: 5;
+}
 
+.form-field {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.btn {
+  font-size: large;
+  height: 2.5em;
+  width: 4.5em;
+  background-color: #946C1E;
+  border: none;
+  border-radius: .25em;
+  color: rgb(247, 247, 247);
+}
+
+.btn:hover {
+  background-color: #85621c;
+}
+
+.nav {
+  padding: .2em;
+}
+.nav-active {
+  background-color: #946C1E;
 }
