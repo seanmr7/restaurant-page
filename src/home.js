@@ -2,7 +2,7 @@
 function home() {
   let content = document.getElementById('content');
   let logo = document.createElement('img');
-  logo.src = '../lobster.png'
+  logo.src = 'lobster.png'
   logo.id = 'logo'
   logo.alt = 'Lobster'
 
