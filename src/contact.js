@@ -1,3 +1,4 @@
+
 function contact() {
   let content = document.getElementById('content');
   let header = document.createElement('h1');
@@ -32,7 +33,7 @@ function contact() {
   let submit = document.createElement('input');
   submit.type = "submit"
   submit.value = "Send!"
-  submit.classList.add('btn')  
+  submit.classList.add('btn', 'contact-btn')  
   form.appendChild(submit)
 
   content.appendChild(form)

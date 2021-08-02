@@ -1,6 +1,15 @@
-function clearContent() {
-  let content = document.getElementById('content');
+function clearContent(content) {
   content.innerHTML = ''
 }
 
-export { clearContent }
+function highlightNav(navItem) { 
+  let navItems = document.querySelectorAll('li');
+  navItems.forEach(item => {
+    if (item !== this) {
+      item.classList.remove('nav-active')
+    }
+  })
+  navItem.classList.add('nav-active')
+}
+
+export { clearContent, highlightNav }

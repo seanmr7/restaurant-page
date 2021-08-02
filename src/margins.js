@@ -3,17 +3,31 @@ function header() {
   let header = document.createElement('header');
   header.id = "header"
   let list = document.createElement('ul');
+  list.id = "nav-list"
   let home = document.createElement('li');
-  home.id = "homeBtn"
-  home.innerText = "Home"
+  let homeAnchor = document.createElement('a');
+  homeAnchor.innerText = "Home"
+  homeAnchor.href = "#"
+  home.id = "homeNav"
+  home.classList.add("nav", "nav-active")
+  home.appendChild(homeAnchor)
+
   
   let menu = document.createElement('li');
-  menu.id = "menuBtn"
-  menu.innerText = "Menu"
+  let menuAnchor = document.createElement('a');
+  menuAnchor.innerText = "Menu"
+  menuAnchor.href = "#"
+  menu.id = "menuNav"
+  menu.classList = "nav"
+  menu.appendChild(menuAnchor)
 
   let contact = document.createElement('li');
-  contact.id = "contactBtn"
-  contact.innerText = "Contact Us"
+  let contactAnchor = document.createElement('a');
+  contactAnchor.innerText = "Contact"
+  contactAnchor.href = "#"
+  contact.id = "contactNav"
+  contact.classList = "nav"
+  contact.appendChild(contactAnchor)
 
   list.appendChild(home)
   list.appendChild(menu)
@@ -21,7 +35,7 @@ function header() {
 
   header.appendChild(list)
 
-  document.body.appendChild(header)
+  document.body.prepend(header)
 }
 
 function footer() {

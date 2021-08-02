@@ -15,7 +15,7 @@ function menu() {
 
   let appetizerText = ["$15 | Fish Taco Bites", "Like a fish taco, but miniature!", "$9 | Sizzling Scallops", "Seared scallops topped with chorizo, served sizzling!", "$12 | Calamari", "Fried squid with tartar sauce!", "$2 | Crazy Coconut Shrimp", "Fried coconut shrimp topped off with a ghost pepper tomato dip!"];
   let appetizerContainer = [];
-  let entreeText = ["$35 | One Whole Lobster", "Its a whole lobster. Side of potatoes!", "$24 | More Calamari", "Twice as much calamari as the appetizer and three times the sauce!", "$45 | Serf and Terf", "Three lobster tails on top of three steaks!", "$18 | Shrimp Fettucine Alfredo", "Fettucini pasta, alfredo sauce, basil, and shrimp!"];
+  let entreeText = ["$35 | One Whole Lobster", "Its a whole lobster. Side of potatoes!", "$24 | More Calamari", "Twice as much calamari as the appetizer and three times the sauce!", "$45 | Serf and Terf", "Three lobster tails on top of a steak!", "$18 | Shrimp Fettucine Alfredo", "Fettucini pasta, alfredo sauce, basil, and shrimp!"];
   let entreeContainer = [];
   let drinksText = ["$5 | SeaWater", "Fresh from the ocean!", "$6 | Soda-Pop", "Generic!"];
   let drinksContainer = [];

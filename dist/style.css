@@ -19,6 +19,7 @@ time, mark, audio, video {
   vertical-align: baseline;
   font-family: 'Otomanopee One', sans-serif;
   color: rgb(247, 247, 247);
+  text-decoration: none;;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -58,6 +59,7 @@ html {
 
 header, footer {
   background-color: #1e4d94d3;
+  padding: .5em 0;
 }
 
 #logo {
@@ -76,7 +78,9 @@ ul {
 
 header ul li {
   font-size: 1.35rem;
-  margin: .4em;
+  padding: .4em;
+  margin: 0 .3em;
+  border-radius: .3em;
 }
 
 footer {
@@ -97,7 +101,7 @@ footer ul {
   position: absolute;
   width: 50%;
   min-height: 65%;
-  top: 7.5%;
+  top: 9.5%;
   left: 25%;
   background-color: #1e4d94d3;
 }
@@ -110,7 +114,7 @@ footer ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 65%;
   margin: .5em 0;
   padding: .85em;
 }
@@ -166,22 +170,33 @@ footer ul {
 }
 
 .btn {
+  background-color: #946C1E;
   font-size: large;
   height: 2.5em;
   width: 4.5em;
-  background-color: #946C1E;
   border: none;
+  font-family: 'Otomanopee One', sans-serif;
   border-radius: .25em;
   color: rgb(247, 247, 247);
 }
 
 .btn:hover {
-  background-color: #85621c;
+  background-color: #765618;
+}
+
+.menu-btn {
+  font-size: 1.35rem;
 }
 
 .nav {
-  padding: .2em;
-}
-.nav-active {
   background-color: #946C1E;
+  height: 100%;
+}
+
+.nav:hover {
+  background-color: #765618;
+}
+
+.nav-active {
+  background-color: #765618;
 }
