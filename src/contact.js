@@ -33,7 +33,7 @@ function contact() {
   let submit = document.createElement('input');
   submit.type = "submit"
   submit.value = "Send!"
-  submit.classList.add('btn', 'contact-btn')  
+  submit.classList.add('btn')  
   form.appendChild(submit)
 
   content.appendChild(form)
